@@ -1,4 +1,4 @@
-package org.telemeter;
+package org.telemeter.Repo;
 public class PersonRepo {
     
 }

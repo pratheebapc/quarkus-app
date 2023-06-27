@@ -1,4 +1,4 @@
-package org.telemeter;
+package org.telemeter.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

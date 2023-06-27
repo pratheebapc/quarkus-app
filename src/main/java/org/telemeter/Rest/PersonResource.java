@@ -1,6 +1,8 @@
-package org.telemeter;
+package org.telemeter.Rest;
 
 import java.util.List;
+
+import org.telemeter.Entity.Person;
 
 import jakarta.inject.Inject;
 import jakarta.persistence.EntityManager;
