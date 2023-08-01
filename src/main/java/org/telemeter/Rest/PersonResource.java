@@ -1,8 +1,8 @@
 package org.telemeter.Rest;
 
 import java.util.List;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.jboss.logging.Logger;
+import org.jboss.logmanager.LogManager;
 
 import org.telemeter.Entity.Person;
 
@@ -29,7 +29,7 @@ public class PersonResource {
     @Inject
     EntityManager em;
 
-    private static final Logger logger = LogManager.getLogger(PersonResource.class.getName());
+    private static final Logger logger = Logger.getLogger(PersonResource.class.getName());
 
     @GET
     public List<Person> getAllPersons() {
